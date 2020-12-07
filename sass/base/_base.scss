@@ -1,23 +1,23 @@
 
 // colors
-$bg-primary: #67328D;
-$bg-secondary: #0AD6A1;
+$bg-primary: #B16A6C;
+$bg-secondary:  #E3BC84;
 $bg-success: #d4edda;
 $bg-danger: #f8d7da;
 $bg-warning: #FAD449;
 $bg-info: #0075FF;
-$bg-light: #DBEDF8;
-$bg-dark: #1A1A1A;
+$bg-light: #F1EEE7;
+$bg-dark: #32312F;
 $bg-white: #FFF;
 
-$text-primary:  #67328D;
-$text-secondary: #0AD6A1;
+$text-primary:  #B16A6C;
+$text-secondary: #E3BC84;
 $text-success: #d4edda;
 $text-danger: #f8d7da;
 $text-warning: #FAD449;
 $text-info: #0075FF;
-$text-light: #DBEDF8;
-$text-dark: #1A1A1A;
+$text-light: #F1EEE7;
+$text-dark: #32312F;
 $text-white: #FFF;
 
 html {
@@ -25,56 +25,96 @@ html {
 }
 
 //base CSS
-// a {
-//   color: inherit;
-//   text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 
-//   transition: color .3s;
-// }
+  transition: color .3s;
+}
 
-//btn CSS
-// .btn {
-//   display: inline-block;
-//   padding: 12px 0;
-//   width: 100%;
+//btn
+.btn {
+  display: inline-block;
+  padding: 12px 0;
+  width: 100%;
 
-//   text-align: center;
-//   font-weight: 800;
-//   color: $text-primary;
+  text-align: center;
+  font-weight: 800;
+  color: $text-primary;
 
-//   background-color: $bg-light;
+  background-color: $bg-light;
 
-//   border-radius: 7px;
+  border-radius: 7px;
 
-//   transition: .3s;
-// }
+  transition: .3s;
+}
 
-// .btn-primary {
-//   background-color: $bg-primary;
-//   color: $text-light;
-// }
+.btn-primary {
+  background-color: $bg-primary;
+  color: $text-light;
+}
 
+//hover
+.btn .fa-angle-right {
+  opacity: 0;
+
+  transition: .3s;
+}
+
+.btn:hover .fa-angle-right {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  padding-right: 18px;
+}
+
+//responsive
+@media only screen and (min-width: 768px) { 
+  .btn {
+    width: auto;
+    padding: 12px 15px;
+  }
+
+  .btn-header {
+    margin-left: 70px;
+  }
+}
 
 // img
 
 
 // back-to-top
-// .back-to-top {
-//   display: none;
-//   height: 50px;
-//   width: 50px;
-//   position: fixed;
-//   bottom: 75px;
-//   right: 20px;
+.back-to-top {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
 
-//   color: $bg-secondary;
-//   text-align: center;
+  color: $bg-dark;
+  text-align: center;
 
-//   background-color: $bg-white;
+  background-color: $bg-white;
 
-//   border-radius: 100%;
-//   border: 5px solid $bg-secondary;
+  border-radius: 100%;
+  border: 5px solid $bg-dark;
 
-//   z-index: 2;
-//   cursor: pointer;
-// }
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+//bg
+
+.bg-primary {
+  background-color: $bg-primary;
+}
+
+//text 
+
+.text-white {
+  color: $bg-white;
+}

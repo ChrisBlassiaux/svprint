@@ -1,0 +1,194 @@
+.header {
+  position: relative;
+  
+  font-size: .9em;
+
+  z-index: 10;
+}
+
+// navbar
+.navbar {
+  background-color: $bg-dark;
+
+  transition: 0.4s;
+}
+
+// burger
+.contain-burger {
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+.burger-nav {
+  position: relative;
+  height: 3px;
+  width: 35px;
+
+  background-color: $bg-light;
+
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.burger-nav::before {
+  content: '';
+  display: inline-block;
+  margin-top: 12px;
+  height: 3px;
+  width: 35px;
+
+  background-color: $bg-light;
+
+  border-radius: 3px;
+}
+
+.burger-nav::after{
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  display: inline-block;
+  height: 3px;
+  width: 35px;
+
+  background-color: $bg-light;
+
+  border-radius: 3px;
+}
+
+// navbar
+.navbar .logo {
+  height: 45px;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  top: 123px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+
+  text-align: center;
+
+  background-color: #FFF;
+
+  border-top: 15px solid $bg-light;
+  z-index: 1;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
+}
+
+.nav .section {
+  display: block;
+  padding: 15px 0;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: .4s;
+}
+
+.nav .section:hover {
+ color: $text-primary;
+}
+
+.nav .active {
+  color: $text-primary;
+}
+
+// presentation_keys
+.presentation_keys:first-child {
+  margin-top: 120px;
+}
+
+.presentation_keys {
+  padding: 20px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.presentation_keys span {
+  margin-right: 15px;
+}
+
+// jumbotron
+.jumbotron {
+  position: relative;
+  height: 415px;
+
+  background: center / cover no-repeat url(images/print.png);
+}
+
+.jumbotron .presentation { 
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  // jumbotron
+  .jumbotron {
+    height: 330px;
+  }
+
+  .nav {
+    background-color: transparent;
+    color: $text-white;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    z-index: 1;
+  }
+
+  .container-navbar {
+    padding: 0 50px;
+  }
+
+  .jumbotron {
+    margin-top: 120px;
+  }
+
+  // nav
+  .nav {
+    position: relative;
+    top: -4px;
+    display: block;
+    width: auto;
+    height: auto;
+
+    text-align: right;
+
+    border: none;
+  }
+  .nav .section {
+    display: inline-block;
+    padding: 42px 15px;
+  }
+
+  // burger-nav
+  .burger-nav {
+    display: none;
+  }
+}

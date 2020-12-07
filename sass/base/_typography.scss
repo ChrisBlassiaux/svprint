@@ -1,62 +1,61 @@
 
-//typography CSS
-// @font-face {
-//   font-family: "Helvetica";
-//   src: url("/fonts/HelveticaNeueLTStd-Roman.otf");
-// }
+$text-font: 'Montserrat', sans-serif;
 
-// $text-font: 'Helvetica', sans-serif;
+$weight-bold: 800;
+$weight-semi-bold: 600;
+$weight-light: 300;
 
-// $weight-bold: 800;
-// $weight-semi-bold: 600;
-// $weight-light: 300;
+html {
+  font-size: 16px; 
+}
 
-// html {
-//   font-size: 16px; 
-// }
+body {
+  font-family: $text-font;
+  line-height: 1.5;
+  // color: $text-secondary;
+}
 
-// body {
-//   font-family: $text-font;
-//   line-height: 1.5;
-//   // color: $text-secondary;
-// }
+// texte
+.text-center {
+  text-align: center;
+}
 
-//titles
-// .title {
-//   margin-top: 70px;
+// titles
+.title {
+  margin-top: 70px;
 
-//   font-size: 1.6em;
-//   font-weight: $weight-bold;
-// }
+  font-size: 1.6em;
+  font-weight: $weight-bold;
+}
 
-// .container-title .circles {
-//   color: $text-primary;
-// }
+.container-title .circles {
+  color: $text-primary;
+}
 
-// .subtitle {
-//   margin: 45px 0 30px 0;
+.subtitle {
+  margin: 45px 0 30px 0;
 
-//   font-size: 1.4em;
-//   font-weight: $weight-bold;
-//   color: $text-primary;
+  font-size: 1.4em;
+  font-weight: $weight-bold;
+  color: $text-primary;
 
-//   opacity: .75;
-// }
+  opacity: .75;
+}
 
-// @media only screen and (min-width: 768px) {
-//   .title {
-//     font-size: 1.7em;
-//   }
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 1.7em;
+  }
   
-//   .subtitle { 
-//     font-size: 1.5em;
-//   }
-// }
+  .subtitle { 
+    font-size: 1.5em;
+  }
+}
 
 // weights
-// .bold {
-//   font-weight: $weight-bold;
-// }
+.bold {
+  font-weight: $weight-bold;
+}
 
 // .mark {
 //   font-weight: $weight-bold;

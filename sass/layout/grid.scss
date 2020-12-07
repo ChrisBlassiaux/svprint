@@ -11,3 +11,16 @@
   margin: 0 auto;
   padding: 20px;
 }
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 15px 20px;
+}
+
+.container-jumbotron {
+  max-width: 1400px;
+  margin: 0 auto;
+}
