@@ -539,5 +539,21 @@ body {
     margin: 0 10px;
   }
 }
+.partners {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.partners div {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .partners {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

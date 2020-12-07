@@ -124,6 +124,15 @@ require 'layouts/header.php';
     </div>
   </div>
 
+  <div class="container">
+    <h2 class="title text-center">Ils nous soutiennent</h2>
+    <div class="partners">
+      <div><img src="images/partner1.png" alt=""></div>
+      <div><img src="images/partner2.png" alt=""></div>
+      <div><img src="images/partner3.png" alt=""></div>
+      <div><img src="images/partner4.png" alt=""></div>
+    </div>
+  </div>
  
 
 <?php require 'layouts/footer.php'; ?> 
