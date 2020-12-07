@@ -381,4 +381,21 @@ body {
   border: 1px solid #c3e6cb;
 }
 
+.advices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.advice {
+  text-align: center;
+}
+
+.advice img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
