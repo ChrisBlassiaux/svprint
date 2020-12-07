@@ -60,6 +60,7 @@ html {
   scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 a {
   color: inherit;
   text-decoration: none;
@@ -175,6 +176,8 @@ body {
   font-weight: 800;
 }
 
+=======
+>>>>>>> a67bf8331bc08e2a9e85f31525c2f150d7f044a8
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -187,6 +190,7 @@ body {
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .container-navbar {
   display: flex;
   justify-content: space-between;
@@ -363,6 +367,8 @@ body {
     display: none;
   }
 }
+=======
+>>>>>>> a67bf8331bc08e2a9e85f31525c2f150d7f044a8
 .alert {
   margin-bottom: 30px;
   padding: 12px 20px;
