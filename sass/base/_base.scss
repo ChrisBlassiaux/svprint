@@ -54,6 +54,12 @@ a {
   color: $text-light;
 }
 
+.btn-dark {
+  margin-top: 20px;
+  background-color: $bg-dark;
+  color: $text-light;
+}
+
 //hover
 .btn .fa-angle-right {
   opacity: 0;
@@ -117,4 +123,11 @@ a {
 
 .text-white {
   color: $bg-white;
+}
+
+
+//margin 
+
+.mt-2 {
+  margin-top: 20px;
 }

@@ -1,0 +1,22 @@
+
+.tricks {
+  margin-top: 180px;
+  padding-top: 10px;
+  height: 400px;
+
+  border-radius: 0;
+
+  background:  linear-gradient(rgba(255, 255, 255, .7), (rgba(255, 255, 255, .7))),
+              center / cover no-repeat url(images/print.png);
+}
+
+@media only screen and (min-width: 768px) { 
+
+  .tricks {
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 400px;
+    border-radius: 50px 0 0 0;
+  }
+}

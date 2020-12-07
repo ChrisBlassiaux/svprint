@@ -99,7 +99,16 @@ require 'layouts/header.php';
       <div>
         <h2 class="title">Nos services</h2>
         <p>Nous offrons des cartouches compatibles, remanufacturée haut de gamme.</p>
+        <a href="services.php" class="btn btn-dark">Découvrir nos services<i class="fa fa-angle-right"></i></a>
       </div>
+    </div>
+  </div>
+
+  <div class="tricks">
+    <div class="container">
+      <h3 class="subtitle">Nos astuces</h3>
+      <p>Astuces pour entretenir vos imprimantes</p>
+      <a href="tricks.php" class="btn btn-primary mt-2">Découvrir nos actuces<i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 
