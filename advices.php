@@ -8,7 +8,7 @@ require 'layouts/header.php'; ?>
 	</section>
 
 	<section class="advices">
-		<h2>Conseils et Astuces</h2>
+		<h2 class="title">Conseils et Astuces</h2>
 		<div class="advice">
 			<div>
 				<h3>Astuce 1</h3>
@@ -57,7 +57,7 @@ require 'layouts/header.php'; ?>
 				<p>Toujours utiliser un papier adapté à la machine, afin de miniser les risques de bourrages papier ou des problèmes internes</p>
 			</div>
 			<div>
-				<img src="papier.jpg" alt="">
+				<img src="images/papier.jpg" alt="">
 			</div>
 		</div>
 		<div class="advice">
