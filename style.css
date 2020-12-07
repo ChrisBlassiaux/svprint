@@ -502,5 +502,42 @@ body {
     border-radius: 50px 0 0 0;
   }
 }
+.contact_section {
+  height: 350px;
+  background-color: #B16A6C;
+  color: #F1EEE7;
+  text-align: center;
+}
+
+.contact_section input {
+  border: 2px solid #F1EEE7;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact_section .container form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact_section .container form .btn {
+    margin-top: 0;
+  }
+
+  .contact_section .container form {
+    margin-top: 30px;
+  }
+
+  .contact_section input {
+    width: 250px;
+    height: 48px;
+    margin: 0 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

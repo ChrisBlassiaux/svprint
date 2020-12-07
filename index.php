@@ -112,6 +112,18 @@ require 'layouts/header.php';
     </div>
   </div>
 
+  <div class="contact_section">
+    <div class="container">
+      <h2 class="title">Un clique, un contact</h2>
+      <p>Nous vous contacterons dès que possible. </p>
+      <form action="#">
+        <input type="text" placeholder="Nom de l'entreprise">
+        <input type="text" placeholder="03 00 00 00 00">
+        <a href="tricks.php" class="btn mt-2">Me faire appeler<i class="fa fa-angle-right"></i></a>
+      </form>
+    </div>
+  </div>
+
  
 
 <?php require 'layouts/footer.php'; ?> 
