@@ -119,7 +119,7 @@ a {
   background-color: #FFF;
   border-radius: 100%;
   border: 5px solid #32312F;
-  z-index: 2;
+  z-index: 5;
   cursor: pointer;
 }
 
@@ -137,11 +137,16 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #32312F;
   line-height: 1.5;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .title {
@@ -156,9 +161,9 @@ body {
 
 .subtitle {
   margin: 45px 0 30px 0;
+  font-family: "Lora";
   font-size: 1.4em;
   font-weight: 800;
-  color: #B16A6C;
   opacity: 0.75;
 }
 
@@ -291,17 +296,17 @@ body {
   color: #B16A6C;
 }
 
-.presentation_keys:first-child {
-  margin-top: 120px;
+.presentation_keys {
+  margin-top: 130px;
 }
 
-.presentation_keys {
+.presentation_key {
   padding: 20px 0;
   text-align: center;
   text-transform: uppercase;
 }
 
-.presentation_keys span {
+.presentation_key span {
   margin-right: 15px;
 }
 
@@ -326,6 +331,13 @@ body {
     background-color: transparent;
     color: #FFF;
   }
+
+  .presentation-keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 135px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .navbar {
@@ -338,10 +350,6 @@ body {
 
   .container-navbar {
     padding: 0 50px;
-  }
-
-  .jumbotron {
-    margin-top: 120px;
   }
 
   .nav {
@@ -379,6 +387,93 @@ body {
   background-color: #d4edda;
   color: #155724;
   border: 1px solid #c3e6cb;
+}
+
+.introducing_step {
+  display: none;
+}
+
+.number {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #32312F;
+  border-radius: 100%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.line {
+  width: 1px;
+  background-color: #32312F;
+}
+
+.line-1 {
+  height: 260px;
+}
+
+.line-2 {
+  height: 1360px;
+}
+
+.line-3 {
+  height: 280px;
+}
+
+.line-4 {
+  height: 330px;
+}
+
+.introducing {
+  margin-top: 50px;
+}
+
+.section img {
+  margin-right: 40px;
+}
+
+.section .img {
+  text-align: left;
+}
+
+.section-small img {
+  height: 100px;
+}
+
+.introducing .section {
+  margin-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .introducing .section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section-small {
+    width: 80%;
+  }
+
+  .section-small img {
+    height: 150px;
+  }
+
+  .section .img {
+    text-align: right;
+  }
+
+  .introducing_step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -111,18 +111,18 @@
 }
 
 // presentation_keys
-.presentation_keys:first-child {
-  margin-top: 120px;
+.presentation_keys {
+  margin-top: 130px;
 }
 
-.presentation_keys {
+.presentation_key {
   padding: 20px 0;
 
   text-align: center;
   text-transform: uppercase;
 }
 
-.presentation_keys span {
+.presentation_key span {
   margin-right: 15px;
 }
 
@@ -150,6 +150,16 @@
     background-color: transparent;
     color: $text-white;
   }
+
+  // presentation_keys
+  .presentation-keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 135px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -164,10 +174,6 @@
 
   .container-navbar {
     padding: 0 50px;
-  }
-
-  .jumbotron {
-    margin-top: 120px;
   }
 
   // nav
