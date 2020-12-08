@@ -1,15 +1,13 @@
 <?php
   // //function qui rend les items de la nav dynamiques 
   // //title, href et class active
-  // function nav_item(string $link, string $title): string 
-  // {
-  //   $class = 'nav-item';
-  //   if ($_SERVER['SCRIPT_NAME'] === $link) {
-  //     $class .= ' active';
-  //   }
-  //   return 'html' . $class . 'La suite du html';
-  //   //les href dynamiques
-  // }
+  function nav_item(string $link): string 
+  {
+    if ($_SERVER['SCRIPT_NAME'] === $link) {
+     return true;
+    }
+    return false;
+  }
 
 ?>
 
@@ -47,7 +45,7 @@
             <div class="burger-nav"></div>
           </div>
           <nav class="nav">
-            <a href="index.php" class="section">Accueil</a>
+            <a href="index.php" class="section <?php echo nav_item('/index.php') ? 'active' : '' ?>">Accueil</a>
             <a href="services.php" class="section">Nos services</a> 
             <a href="advices.php" class="section">Conseils</a>
             <a href="contact.php" class="section">Contact</a>

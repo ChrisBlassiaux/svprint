@@ -55,7 +55,7 @@ require 'layouts/header.php'; ?>
 		</div>
 	</section>
 
-	<section class="partners">
+	<section class="services-partners">
 		<h2 class="title">Ils nous font confiance</h2>
 		<div class="partner">
 			<div>
