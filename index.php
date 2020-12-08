@@ -44,34 +44,34 @@ require 'layouts/networks.php';
       </div>
       <div class="container-small section section-small">
         <div class="img">
-          <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+          <img src="images/svg_2.svg" alt="Image représentant le logotypes de l'entreprise">
         </div>
         <div>
-          <h3 class="subtitle">Equipe d’experts</h3>
+          <h3 class="subtitle mt-0">Equipe d’experts</h3>
           <p>Nous sommes une équipe d’experts à votre écoute avec plus de 10 ans d’expériences.</p>
         </div>
       </div>
       <div class="container-small section section-small">
         <div class="img">
-          <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+          <img src="images/svg_3.svg" alt="Image représentant le logotypes de l'entreprise">
         </div>
         <div>
-          <h3 class="subtitle">Un interlocuteur unique</h3>
+          <h3 class="subtitle mt-0">Un interlocuteur unique</h3>
           <p>Nous vous proposons un interloculeur unique qui permettra un suivant constant de votre situation. </p>
         </div>
       </div>
       <div class="container-small section section-small">
         <div class="img">
-          <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+          <img src="images/svg_4.svg" alt="Image représentant le logotypes de l'entreprise">
         </div>
         <div>
-          <h3 class="subtitle">Un accompagnement</h3>
+          <h3 class="subtitle mt-0">Un accompagnement</h3>
           <p>L’installation, l’entretien de vos appareils et le réapprovisionnement de consommables.</p>
         </div>
       </div>
       <div class="container-small section section-small">
         <div class="img">
-          <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+          <img src="images/svg_5.svg" alt="Image représentant le logotypes de l'entreprise">
         </div>
         <div>
           <h3 class="subtitle">Un guide</h3>
@@ -82,7 +82,7 @@ require 'layouts/networks.php';
     </div>
     <div class="container-small section">
       <div class="text-center">
-        <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+        <img src="images/svg_6.svg" alt="Image représentant le logotypes de l'entreprise">
       </div>
       <div>
         <h2 class="title">SV Print et l’Écologie</h2>
@@ -96,7 +96,7 @@ require 'layouts/networks.php';
     </div>
     <div class="container-small section">
       <div class="text-center">
-        <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+        <img src="images/svg_7.svg" alt="Image représentant le logotypes de l'entreprise">
       </div>
       <div>
         <h2 class="title">Nos services</h2>
@@ -135,7 +135,9 @@ require 'layouts/networks.php';
       <div><img src="images/partner4.png" alt=""></div>
     </div>
   </div>
- 
+
+  <!-- <img src="images/print_transparent.png" alt="" class="print-tranparent"> -->
+  
 
 <?php require 'layouts/footer.php'; ?> 
 
