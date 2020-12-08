@@ -39,7 +39,7 @@
         <div class="text-center bg-primary text-white">Nos services sont toujours opérationnels même en situation de <strong class="bold">Covid-19</strong></div>
         <div class="container-navbar">
           <h1>
-            <a href="#">
+            <a href="index.php">
               <img src="images/logo.png" alt="Logotype de numériqu'elles" class="logo">
             </a>
           </h1>
@@ -47,9 +47,9 @@
             <div class="burger-nav"></div>
           </div>
           <nav class="nav">
-            <a href="#" class="section">Accueil</a>
-            <a href="services.html" class="section">Nos services</a> 
-            <a href="conseils.html" class="section">Conseils</a>
+            <a href="index.php" class="section">Accueil</a>
+            <a href="services.php" class="section">Nos services</a> 
+            <a href="advices.php" class="section">Conseils</a>
             <a href="contact.php" class="section">Contact</a>
             <a href="#" class="btn">Me faire appeler<i class="fa fa-angle-right"></i></a>
           </nav>  
@@ -64,7 +64,10 @@
           <div class="jumbotron">
             <div class="presentation">
               <div class="container text-center">
-                <a href="service.php" class="btn btn-primary">Des milliers de références<i class="fa fa-angle-right"></i></a>
+                <a href="services.php" class="btn btn-primary">
+                  Des milliers de références
+                  <i class="fa fa-angle-right"></i>
+                </a>
               </div> 
               <div class="text">
                 <div class="container bold text-center">
