@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 100px;
+  
+  background-color: $bg-dark;
+  color: $text-light;
+}
+
+.title-list {
+  padding: 10px 0;
+  
+  font-weight: $weight-bold;
+  text-transform: uppercase;
+}
+
+.list li {
+  margin: 15px 0;
+}
+
+.list a:hover,
+.footer .last a:hover {
+  color: $text-secondary;
+}
+
+@media only screen and (min-width: 992px) { 
+
+  .footer .lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
