@@ -135,7 +135,9 @@ require 'layouts/networks.php';
       <div><img src="images/partner4.png" alt=""></div>
     </div>
   </div>
- 
+
+  <!-- <img src="images/print_transparent.png" alt="" class="print-tranparent"> -->
+  
 
 <?php require 'layouts/footer.php'; ?> 
 
