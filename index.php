@@ -1,6 +1,8 @@
 <?php 
 $title = 'SVprint - Vente de matériel de bureau';
 require 'layouts/header.php'; 
+
+require 'layouts/networks.php';
 ?>
 
   <div class="introducing_step">
@@ -28,7 +30,7 @@ require 'layouts/header.php';
   <div class="introducing">
     <div class="container-small section">
       <div class="text-center">
-        <img src="images/svg_1.png" alt="Image représentant le logotypes de l'entreprise">
+        <img src="images/svg_1.svg" alt="Image représentant le logotypes de l'entreprise">
       </div>
       <div>
         <h2 class="title">SV Print :  qui sommes nous ? </h2>
