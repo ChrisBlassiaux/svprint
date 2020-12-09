@@ -1,0 +1,20 @@
+.networks {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .networks {
+    padding: 5px;
+    position: fixed;
+    top: 150px;
+    right: 15px;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+  
+    color: $text-primary;
+    background-color: $text-white;
+    z-index: 10;
+  }
+}

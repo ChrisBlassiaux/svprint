@@ -217,7 +217,7 @@ body {
 .header {
   position: relative;
   font-size: 0.9em;
-  z-index: 10;
+  z-index: 4;
 }
 
 .navbar {
@@ -691,6 +691,24 @@ body {
   .service:nth-child(2n) p,
 .partner:nth-child(2n) p {
     text-align: left;
+  }
+}
+.networks {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .networks {
+    padding: 5px;
+    position: fixed;
+    top: 150px;
+    right: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+    color: #B16A6C;
+    background-color: #FFF;
+    z-index: 10;
   }
 }
 

@@ -1,6 +1,8 @@
 <?php 
 $title = 'SVprint - Conseils et astuces';
-require 'layouts/header.php'; ?>
+require 'layouts/header.php'; 
+require 'layouts/networks.php';
+?>
 
 <main>
 	<section class="services">
