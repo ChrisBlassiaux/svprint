@@ -581,16 +581,18 @@ body {
   color: #B16A6C;
   text-align: center;
   font-weight: bold;
+  margin-top: 15%;
 }
 
 .form-contact {
   display: flex;
   flex-direction: column;
-  padding: 10%;
+  padding: 5% 10%;
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 2em;
+  padding: 2% 0;
   display: flex;
   flex-direction: column;
 }
@@ -613,7 +615,7 @@ body {
 
 textarea.form-control {
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2em;
 }
 
 .btn-contact {
@@ -653,6 +655,7 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
   padding: 0 10%;
+  margin: 10% 0;
 }
 
 .advice {
@@ -692,7 +695,7 @@ textarea.form-control {
   }
 }
 .accent {
-  color: #E58900;
+  color: #B16A6C;
 }
 
 .services,
@@ -703,6 +706,7 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
   padding: 0 10%;
+  margin: 10% 0;
 }
 
 .service,
