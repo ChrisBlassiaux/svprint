@@ -1,6 +1,6 @@
 <?php 
 $title = 'SVprint - Contact';
-require 'layouts/header.php'; 
+require 'layouts/navbar.php';
 require 'layouts/networks.php';
 ?>
 

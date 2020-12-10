@@ -1,6 +1,6 @@
 <?php 
 $title = 'SVprint - Conseils et astuces';
-require 'layouts/header.php'; 
+require 'layouts/navbar.php';
 require 'layouts/networks.php';
 ?>
 

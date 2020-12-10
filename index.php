@@ -1,5 +1,6 @@
 <?php 
 $title = 'SVprint - Vente de matériel de bureau';
+require 'layouts/navbar.php'; 
 require 'layouts/header.php'; 
 
 require 'layouts/networks.php';
