@@ -12,9 +12,18 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3px;
-  
-    color: $text-primary;
+
     background-color: $text-white;
+    border-radius: 7px;
     z-index: 10;
+  }
+
+  .networks a span {
+    color: $text-primary;
+    transition: .3s;
+  }
+  
+  .networks a span:hover {
+    color: $text-dark;
   }
 }

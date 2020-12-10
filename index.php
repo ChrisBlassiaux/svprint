@@ -5,6 +5,13 @@ require 'layouts/header.php';
 require 'layouts/networks.php';
 ?>
 
+  <div class="slide-images">
+    <img src="images/slide-4.png" alt="">
+    <img src="images/slide-3.png" alt="">
+    <img src="images/slide-2.png" alt="">
+    <img src="images/slide-1.png" alt="">
+  </div>
+
   <div class="introducing_step">
     <div class="number">
       <span class="bold">1</span>

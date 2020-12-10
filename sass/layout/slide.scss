@@ -1,0 +1,10 @@
+.slide-images {
+  margin: 150px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.slide-images img {
+  width: 100%;
+}

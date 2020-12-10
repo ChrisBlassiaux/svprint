@@ -706,10 +706,29 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3px;
-    color: #B16A6C;
     background-color: #FFF;
+    border-radius: 7px;
     z-index: 10;
   }
+
+  .networks a span {
+    color: #B16A6C;
+    transition: 0.3s;
+  }
+
+  .networks a span:hover {
+    color: #32312F;
+  }
+}
+.slide-images {
+  margin: 150px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.slide-images img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
