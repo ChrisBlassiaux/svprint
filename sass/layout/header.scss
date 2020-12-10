@@ -131,7 +131,7 @@
   position: relative;
   height: 415px;
 
-  background: center / cover no-repeat url(images/print.png);
+  background: center / cover no-repeat url(images/cartouches_encre.jpg);
 }
 
 .jumbotron .presentation { 
@@ -141,7 +141,7 @@
 }
 
 .jumbotron .text {
-  color: $text-primary;
+  color: $text-white;
 }
 
 @media only screen and (min-width: 768px) {
