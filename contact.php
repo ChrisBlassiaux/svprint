@@ -20,7 +20,7 @@ require 'layouts/networks.php';
       <input class="form-control" type="email" name="email" id="email" required>
     </div>
     <div class="form-group">
-      <label for="phone">Le nom de votre entreprise</label>
+      <label for="phone">Votre numéro de téléphone</label>
       <input class="form-control" type="text" name="phone" id="phone" >
     </div>
     <div class="form-group">
