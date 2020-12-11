@@ -43,6 +43,7 @@
       </span>
     </a>
     
+    <script src="js/svg.js"></script>
     <script src="js/parade.js"></script>
     <script src="js/nav.js"></script>
   </body>
